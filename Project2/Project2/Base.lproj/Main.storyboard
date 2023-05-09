@@ -19,6 +19,9 @@
                         <subviews>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qbh-gh-zP5">
                                 <rect key="frame" x="84.666666666666686" y="100" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="qbh-gh-zP5" secondAttribute="height" multiplier="112:57" id="l4j-x7-PKT"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="US"/>
                                 <connections>
@@ -27,6 +30,9 @@
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="KMg-p9-xWh">
                                 <rect key="frame" x="84.666666666666686" y="244" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="KMg-p9-xWh" secondAttribute="height" multiplier="112:57" id="b7e-wv-T0A"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="US"/>
                                 <connections>
@@ -35,6 +41,9 @@
                             </button>
                             <button opaque="NO" tag="2" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="system" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="MIv-Py-8f4">
                                 <rect key="frame" x="84.666666666666686" y="388" width="224" height="114"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" secondItem="MIv-Py-8f4" secondAttribute="height" multiplier="112:57" id="LQK-ZB-tTV"/>
+                                </constraints>
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="plain" image="US"/>
                                 <connections>
@@ -46,9 +55,12 @@
                         <color key="backgroundColor" systemColor="systemBackgroundColor"/>
                         <constraints>
                             <constraint firstItem="MIv-Py-8f4" firstAttribute="top" secondItem="KMg-p9-xWh" secondAttribute="bottom" constant="30" id="2fr-IQ-tBu"/>
+                            <constraint firstItem="MIv-Py-8f4" firstAttribute="height" secondItem="KMg-p9-xWh" secondAttribute="height" id="5lK-dZ-gRj"/>
                             <constraint firstItem="KMg-p9-xWh" firstAttribute="centerX" secondItem="qbh-gh-zP5" secondAttribute="centerX" id="GRP-RE-eVS"/>
                             <constraint firstItem="MIv-Py-8f4" firstAttribute="centerX" secondItem="KMg-p9-xWh" secondAttribute="centerX" id="LmV-aZ-vMj"/>
                             <constraint firstItem="qbh-gh-zP5" firstAttribute="centerX" secondItem="6Tk-OE-BBY" secondAttribute="centerX" id="ZKa-dZ-kwO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" relation="greaterThanOrEqual" secondItem="MIv-Py-8f4" secondAttribute="bottom" constant="20" id="jzR-xR-rEQ"/>
+                            <constraint firstItem="KMg-p9-xWh" firstAttribute="height" secondItem="qbh-gh-zP5" secondAttribute="height" id="pJt-Xy-Kch"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="top" secondItem="qbh-gh-zP5" secondAttribute="top" constant="3" id="qbp-vt-Skp"/>
                             <constraint firstItem="KMg-p9-xWh" firstAttribute="top" secondItem="qbh-gh-zP5" secondAttribute="bottom" constant="30" id="qka-Ge-blj"/>
                         </constraints>
